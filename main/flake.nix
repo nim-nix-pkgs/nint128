@@ -11,6 +11,7 @@
   inputs.src-nint128-main.ref   = "refs/heads/main";
   inputs.src-nint128-main.owner = "rockcavera";
   inputs.src-nint128-main.repo  = "nim-nint128";
+  inputs.src-nint128-main.dir   = "";
   inputs.src-nint128-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
